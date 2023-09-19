@@ -1,0 +1,324 @@
+{
+    "menu_items": [
+        {
+            "type": "Appetizers",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Iceberg Wedge Salad with House Cured Bacon",
+                    "description": "tomato salsa gorgonzola",
+                    "price": 7.50
+                },
+                {
+                    "name": "Sautéed Shredded Brussels Sprouts",
+                    "description": "bacon hazelnuts gorgonzola",
+                    "price": 6.95
+                },
+                {
+                    "name": "Kale Salad",
+                    "description": "parmesan crisp corn radish garlic-lemon vinaigrette",
+                    "price": 7.50
+                },
+                {
+                    "name": "Pecan Crusted Utah Goat Cheese with Basil-Mint Pesto",
+                    "description": "grilled tomato salsa crostini",
+                    "price": 6.95
+                },
+                {
+                    "name": "Chicken and Cabbage Eggrolls",
+                    "description": "hot &amp; sour dipping sauce",
+                    "price": 6.95
+                }
+            ]
+        },
+        {
+            "type": "Entrees",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Farfalle Pasta with Braised Pork in Tomato Cream",
+                    "description": "capers butternut squash kale",
+                    "price": 12.95
+                },
+                {
+                    "name": "Stout Braised Bratwusrt",
+                    "description": "horseradish mashed potatoes roasted root veggies grilled onion",
+                    "price": 13.95
+                },
+                {
+                    "name": "Salmon &amp; Crispy Tofu in Yellow Curry Sauce",
+                    "description": "vegetable sauté golden raisin chutney",
+                    "price": 15.95
+                },
+                {
+                    "name": "Sesame Shrimp",
+                    "description": "udon noodles ramen broth shiitake mushrooms bean sprouts scallions",
+                    "price": 13.95
+                }
+            ]
+        },
+        {
+            "type": "Sandwiches",
+            "description": "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can 'upgrade' (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
+            "subcategories": [
+                {
+                    "type": "Cold",
+                    "description": "Choice of sourdough, whole wheat, or rye bread"
+                },
+                {
+                    "type": "Hot",
+                    "description": "Choice of whole wheat or cheese &amp; onion bun"
+                }
+            ],
+            "listOfMeals" :
+            [
+                {
+                    "name": "Turkey & Avocado",
+                    "description": "with tomato",
+                    "subcategory": "Cold",
+                    "price": 9.25
+                },
+                {
+                    "name": "Pub Club",
+                    "subcategory": "Cold",
+                    "description": "turkey, bacon. lettuce, tomato",
+                    "price": 9.25
+                },
+                {
+                    "name": "Rare Roast Beef & Swiss",
+                    "description": "sweet-hot mustard, lettuce, red onion",
+                    "subcategory": "Cold",
+                    "price": 9.25
+                },
+                {
+                    "name": "Veggie",
+                    "description": "pepper jack, avocado, sprout, tomato",
+                    "subcategory": "Cold",
+                    "price": 9.25
+                },
+                {
+                    "name": "Turkey & Avocado (half)",
+                    "description": "with tomato",
+                    "subcategory": "Cold",
+                    "price": 7.95
+                },
+                {
+                    "name": "Pub Club (half)",
+                    "subcategory": "Cold",
+                    "description": "turkey, bacon. lettuce, tomato",
+                    "price":7.95
+                },
+                {
+                    "name": "Rare Roast Beef & Swiss (half)",
+                    "description": "sweet-hot mustard, lettuce, red onion",
+                    "subcategory": "Cold",
+                    "price":7.95
+                },
+                {
+                    "name": "Veggie (half)",
+                    "description": "pepper jack, avocado, sprout, tomato",
+                    "subcategory": "Cold",
+                    "price": 7.95
+                },
+                {
+                    "name": "Southwest Chicken Breast",
+                    "description": "Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese",
+                    "subcategory": "Hot",
+                    "price": 7.50
+                },
+                {
+                    "name": "Portobello Fresh Mozzarella",
+                    "description": "Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli",
+                    "subcategory": "Hot",
+                    "price": 9.50
+                },
+                {
+                    "name": "Chipotle BBQ Pork Sandwich",
+                    "description": "with Pickled Jalapeño Slaw",
+                    "subcategory": "Hot",
+                    "price": 9.50
+                },
+                {
+                    "name": "Bacon Burger*",
+                    "description": "Swiss, Lettuce, Tomato",
+                    "subcategory": "Hot",
+                    "price": 9.25
+                },
+                {
+                    "name": "Mexi Burger*",
+                    "description": "Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole",
+                    "subcategory": "Hot",
+                    "price": 9.25
+                },
+                {
+                    "name": "Herb Marinated Top Sirloin*",
+                    "description": "Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Fococcia",
+                    "subcategory": "Hot",
+                    "price": 10.95
+                },
+                {
+                    "name": "Roast Beef",
+                    "description": "with Ancho Au Jus Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette",
+                    "subcategory": "Hot",
+                    "price": 9.75
+                },
+                {
+                    "name": "Blackened Catfish Creole Peppers & Onions",
+                    "description": "Fresh Herb Aioli, Served on house made Sourdough",
+                    "subcategory": "Hot",
+                    "price": 9.75
+                }
+            ]
+        },
+        {
+            "type": "Soup & Salad Combos",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "French Onion or Soup of the Day",
+                    "price": 4.95
+                },
+                {
+                    "name": "French Onion or Soup of the Day",
+                    "description": "with small green salad, fresh fruit or house pasta",
+                    "price": 7.25
+                },
+                {
+                    "name": "French Onion or Soup of the Day",
+                    "description": "with half pasta of the day",
+                    "price": 8.75
+                }
+            ]
+        },
+        {
+            "type": "Fajitas",
+            "description": "Served with red rice, black beans, grilled tomato salad, choice of corn or flour tortillas",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Chicken Onions",
+                    "description": "with Poblano and Bell Peppers, Guacamole, Two Salsas",
+                    "price": 10.95
+                },
+                {
+                    "name": "Sirloin Steak",
+                    "description": "with Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
+                    "price": 10.95
+                }
+            ]
+        },
+        {
+            "type": "Tacos",
+            "description": "Served with red rice, black beans, corn & romaine salad, tortilla chips",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Beer Battered Fish",
+                    "description": "with Jalapeño Remoulade, Roasted Salsa, Cabbage",
+                    "price": 9.95
+                },
+                {
+                    "name": "Carne Asada (marinated sirloin)",
+                    "description": "with Guacamole, Tomatillo Salsa",
+                    "price": 9.95
+                },
+                {
+                    "name": "Citrus Marinated Chicken",
+                    "description": "with Guacamole, Tomatillo Salsa",
+                    "price": 9.95
+                },
+                {
+                    "name": "Grilled Veggie",
+                    "description": "with Zucchini, Yellow Squash, Bell Peppers, Onion, Guacamole, Tomatillo Salsa",
+                    "price": 9.95
+                }
+            ]
+        },
+        {
+            "type": "Enchiladas",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "One Enchilada",
+                    "description": "with Southwestern Succotash, Black Beans with Chipotle Crema Choice of Beef, Chicken, Cheese or Veggie",
+                    "price": 8.50
+                },
+                {
+                    "name": "Two Enchiladas",
+                    "description": "with Southwestern Succotash, Black Beans with Chipotle Crema Choice of Beef, Chicken, Cheese or Veggie",
+                    "price": 9.95
+                },
+                {
+                    "name": "Three Enchiladas",
+                    "description": "with Southwestern Succotash, Black Beans with Chipotle Crema Choice of Beef, Chicken, Cheese or Veggie",
+                    "price": 11.50
+                },
+                {
+                    "name": "Chili Relleno Stuffed",
+                    "description": "with Jack Cheese & Corn Glazed Yam, Chayote Squash Succotash, Red Chili Sauce",
+                    "price": 9.95
+                },
+                {
+                    "name": "Pepita Crusted Salmon with Chipotle Glaze",
+                    "description": "chevre whipped yams, jicama slaw, tomatillo sauce",
+                    "price": 10.95
+                }
+            ]
+        },
+
+        {
+            "type": "Quiche",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Bacon, Swiss, Mushroom, Zucchini and Mushroom Quiche",
+                    "description": "Choice of Fresh Fruit or Green Salad",
+                    "price": 8.95
+                }
+            ]
+        },
+        {
+            "type": "Green Salads",
+            "listOfMeals" : 
+            [
+                {
+                    "name": "Grilled Red Trout Lentils",
+                    "description": "with Tomatoes, Cukes, Green Beans, Red Bells, Almonds, Sundried Tomato Vinaigrette",
+                    "price": 10.95
+                },
+                {
+                    "name": "Smoked Turkey Cheese Tortellini",
+                    "description": "with  Bacon, Tomato, Cucumber, Egg, Black Bean-Corn Salsa, Avocado",
+                    "price": 9.95
+                },
+                {
+                    "name": "Asian Grilled Chicken Snow Peas",
+                    "description": "with Carrot Slaw, Red Bells, Water Chestnut, Peanuts, Baby Corn, Cilantro, Cukes, Spicy Peanut Dressing",
+                    "price": 10.50
+                },
+                {
+                    "name": "Southwest Grilled Chicken Tomato",
+                    "description": "with Guacamole, pepitas, Jicama, Corn &amp; Black Bean Salsa, Orange Wedges, Spicy Citrus Vinaigrette",
+                    "price": 10.50
+                },
+                {
+                    "name": "Southwest Grilled Chicken Tomato",
+                    "description": "with Guacamole, pepitas, Jicama, Corn & Black Bean Salsa, Orange Wedges, Spicy Citrus Vinaigrette",
+                    "price": 10.50
+                },
+                {
+                    "name": "Mediterranean Italian Sausage",
+                    "description": "with Artichoke Hearts, Green Beans, Roma Tomato, Kalamatas, Red Onion, Cucumber, Croutons, Parmesan, Fresh Mozzarella, Gorgonzola Vinaigrette",
+                    "price": 9.95
+                },
+                {
+                    "name": "Grilled Salmon Artichoke tapenade",
+                    "description": "with shredded kale, corn, radish, parmesan crisps",
+                    "price": 11.50
+                }
+
+            ]
+        }
+    ]
+
+}
